@@ -186,19 +186,19 @@ The following visualizations were generated in Google Sheets using the queries i
 
 1. The aggregate sales of Pencil and Binder in 2015
 
-![](Viz 2.png)
+![](Viz2.png)
 
 2. Which region had the most sales in 2014?
 
-![](Viz 3.png)
+![](Viz3.png)
 
 3. Which month had the highest sales in 2015?
 
-![](Viz 4.png)
+![](Viz4.png)
 
 4. Total Sales of desk items in year 2014 in 2015
 
-![](Viz 6.png)
+![](Viz6.png)
 
 
 ## Results/Findings
