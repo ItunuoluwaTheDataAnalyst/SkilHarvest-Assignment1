@@ -1,4 +1,4 @@
-# Skilharves-Assignment1
+# SkilHarvest-Assignment1
 
 I did an exploratory data analysis (EDA) on the stationaries supply of the SkilHarvest company to find various trends and insight for making informed decisions
 
