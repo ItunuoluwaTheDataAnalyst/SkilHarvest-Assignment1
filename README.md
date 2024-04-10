@@ -28,8 +28,8 @@ The primary source used in this EDA is SkilHarvest_Stationary_Supply.csv. The da
 
 ## Tools Used
 ---
-Microsoft Excel to collect, clean, and transform data
-Google Sheets (For querying and analyzing the data)
+Microsoft Excel to collect, clean, and transform the data
+Google Sheets for querying, analyzing and visualizing the data
 
 ## Data Cleaning and Preparation
 ---
