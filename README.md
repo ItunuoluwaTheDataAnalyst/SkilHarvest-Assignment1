@@ -20,7 +20,7 @@ I did an exploratory data analysis (EDA) on the stationaries supply of the SkilH
 
 ## Project Overview
 ---
-This Data Analysis project aimed to generate insight into the sales performance of the E commerce projects over the past year. By analysing the various parameters in the data received we seek to gather enough insight to make reasonable decisions which the enable us to tell compelling stories around our data from the insight gotten to know the best performance from our data.
+This Data Analysis project aimed to generate insight into the sales performance of the E-commerce projects over the past year. By analyzing the various parameters in the data received, we seek to gather enough insight to make reasonable decisions to enable us to tell compelling stories around our data from the insight to know the best performance from our data.
 
 ## Data Source
 ---
@@ -203,10 +203,10 @@ The following visualizations were generated in Google Sheets using the queries i
 
 ## Results/Findings
 ---
-1. Pencil items had the highest sales in 2014 with a 52.9 total percentage.
+1. Pencil items had the highest sales in 2014 with a total of 53%
 
-3. The Central region had the highest sales in the year 2014.
+2. The Central region had the highest sales in the year 2014.
 
-4. Between Aug and Sep 2014, Sep had the highest sales.
+3. Between Aug and Sep 2014, Sep had the highest sales.
 
-5. Desk items were sold more in 2014 than in 2015.
+4. Desk items were sold more in 2014 than in 2015.
