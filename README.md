@@ -10,9 +10,7 @@ I did an exploratory data analysis (EDA) on the stationaries supply of the SkilH
 
 -[Tools used](#tools-used)
 
--[Data Cleaning and Preparation](#data-cleaning-and-preparation)
-
--[Data Analysis](#data-analysis)
+-[Exploratory Data Analysis](#exploratory-data-analysis)
 
 -[Tables containing Analysis](#tables-containing-analysis)
 
@@ -29,30 +27,30 @@ The primary source used in this EDA is SkilHarvest_Stationary_Supply.csv. The da
 ## Tools Used
 ---
 Microsoft Excel to collect, clean, and transform the data
+
 Google Sheets for querying, analyzing and visualizing the data
 
-## Data Cleaning and Preparation
+## Exploratory Data Analysis
 ---
 EDA involved exploring the data to answer some questions about the data such as:
 
-1.	The Sales Rep whose Items are Pen Set and Binders 
-2.	Show sales of binder items and pencils in 2015 
-3.	Sales in Central and East regions in 2014 
+1.	The Sales Rep whose Items are Pen Set and Binders
+    =QUERY(A:H, "SELECT B,C WHERE (C='Pen Set' OR C='Binder')", 1)
+  	
+2.	Show sales of binder items and pencils in 2015
+    =QUERY(A:H, "SELECT C,F,H WHERE (C='Binder' OR C='Pencil') AND F=2015", 1)
+   
+3.	Sales in Central and East regions in 2014
+    =QUERY(A:H, "SELECT H, A, F WHERE (A='Central' OR A='East') and F = 2014", 1)
+  	
 4.	Sales in August and September 2014
+    =QUERY(A:H, "SELECT E, F, H WHERE F=2014 AND (E='Aug' OR E='Sep')", 1)
+  	
 5.	Show sales of items that start with 'Pen', including their region, sales rep, and year
+    =QUERY(A:H, "SELECT A,B,C,F,H WHERE C LIKE 'Pen%'", 1)
+  	
 6.	Show sales of items that end with ‘sk’, including their region, sales rep, and year
-
-## Data Analysis
-```
-Google Sheet
-
-1. =QUERY(A:H, "SELECT B,C WHERE (C='Pen Set' OR C='Binder')", 1)
-2. =QUERY(A:H, "SELECT C,F,H WHERE (C='Binder' OR C='Pencil') AND F=2015", 1)
-3. =QUERY(A:H, "SELECT H, A, F WHERE (A='Central' OR A='East') and F = 2014", 1)
-4. =QUERY(A:H, "SELECT E, F, H WHERE F=2014 AND (E='Aug' OR E='Sep')", 1)
-5. =QUERY(A:H, "SELECT A,B,C,F,H WHERE C LIKE 'Pen%'", 1)
-6. =QUERY(A:H, "SELECT A,B,C,F,H WHERE C LIKE '%sk'", 1)
-```
+    =QUERY(A:H, "SELECT A,B,C,F,H WHERE C LIKE '%sk'", 1)
 
 ## Tables containing Analysis
 ---
