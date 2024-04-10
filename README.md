@@ -20,7 +20,7 @@ I did an exploratory data analysis (EDA) on the stationaries supply of the SkilH
 
 ## Project Overview
 ---
-This Data Analysis project aimed to generate insight into the sales performance of the E-commerce projects over the past year. By analyzing the various parameters in the data received, we seek to gather enough insight to make reasonable decisions to enable us to tell compelling stories around our data from the insight to know the best performance from our data.
+This data analysis project aims to examine the sales performance of SkilHarvest's E-commerce spanning two years. By performing various queries within the data, I intend to uncover patterns and trends that will help in crafting compelling narratives around the sales data. Ultimately, this analysis seeks to identify the key drivers of success and pinpoint areas for improvement within SkilHarvest's E-commerce operations, thereby optimizing our overall performance.
 
 ## Data Source
 ---
